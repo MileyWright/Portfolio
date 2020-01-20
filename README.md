@@ -1,6 +1,6 @@
-https://mileywright.github.io/portfolio-website/
+https://mileywright.tech
 
-# Build A Portfolio Website
+# Build A 
 
 With all of the projects you will be working on here at Lambda School, you will need somewhere to house them!  There is no better opportunity to learn and show off your skills than a beautiful portfolio website.  
 
