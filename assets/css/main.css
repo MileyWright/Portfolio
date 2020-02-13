@@ -349,6 +349,29 @@ input, select, textarea {
 		font-size:2.6rem;
 		color: goldenrod;
 	}
+
+	.content .a {
+		list-style: none;
+	}
+
+	.content .a li::before {
+		content: '\25BA';
+		color: goldenrod;
+		display: inline-block;
+		margin-left: 3em;
+		width: 1.3em;
+		font-size:.7rem;
+	}
+
+	.content .a {
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		height: 15vh;
+		width:70%;
+		text-align:left;
+		justify-content: center;
+	}
 	.content buttonspan{
 		font-family: 'Dancing Script', cursive;
 		font-size:1rem;
