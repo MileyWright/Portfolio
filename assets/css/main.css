@@ -354,20 +354,24 @@ input, select, textarea {
 		list-style: none;	
 		display:flex;
 		flex-wrap: wrap;
-		flex-direction: column;
+		/* flex-direction: column; */
 		height: 15vh;
 		width:70%;
 		text-align:left;
 		justify-content: center;
 	}
-
+	.content .a i {
+		font-size: 42px;
+		color: goldenrod;
+		padding: 2%;
+	}
 	.content .a li::before {
-		content: '\25BA';
+		/* content: '\25BA';
 		color: goldenrod;
 		display: inline-block;
 		margin-left: 3em;
 		width: 1.3em;
-		font-size:.7rem;
+		font-size:.7rem; */
 	}
 
 	.content buttonspan{
