@@ -365,7 +365,7 @@ input, select, textarea {
 		color: goldenrod;
 		padding: 2%;
 	}
-	
+
 	
 	.content buttonspan{
 		font-family: 'Dancing Script', cursive;
@@ -2670,6 +2670,8 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		width: 100%;
+		height: 540px;
 	}
 
 		.image img {
@@ -5844,7 +5846,7 @@ input, select, textarea {
 
 	.spotlight.invert .image {
 		background-color:black;
-		height: inherit;
+		height: 850px;
 	}
 	
 	.spotlight.style3 .image {
