@@ -365,15 +365,8 @@ input, select, textarea {
 		color: goldenrod;
 		padding: 2%;
 	}
-	.content .a li::before {
-		/* content: '\25BA';
-		color: goldenrod;
-		display: inline-block;
-		margin-left: 3em;
-		width: 1.3em;
-		font-size:.7rem; */
-	}
-
+	
+	
 	.content buttonspan{
 		font-family: 'Dancing Script', cursive;
 		font-size:1rem;
@@ -5846,12 +5839,14 @@ input, select, textarea {
 
 	.spotlight .image {
 		background-color: rgba(0, 0, 0, 0.125);
+		height: inherit;
 	}
 
 	.spotlight.invert .image {
-		background-color: rgba(255, 255, 255, 0.125);
+		background-color:black;
+		height: inherit;
 	}
-
+	
 	.spotlight.style3 .image {
 		border-color: rgba(0, 0, 0, 0.2);
 		background-color: rgba(0, 0, 0, 0.2);
