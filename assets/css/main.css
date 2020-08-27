@@ -295,7 +295,14 @@ input, select, textarea {
 		font-size:2.2rem;
 		color: goldenrod;
 	}
-
+	.meContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.me {
+		width:60%;
+	}
 	@media screen and (max-width: 736px) {
 
 		p.major {
