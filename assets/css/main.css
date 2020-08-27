@@ -375,7 +375,6 @@ input, select, textarea {
 
 	
 	.content buttonspan{
-		font-family: 'Dancing Script', cursive;
 		font-size:1rem;
 		color: goldenrod;
 	}
@@ -3583,6 +3582,10 @@ input, select, textarea {
 
 			.banner.style1 .content {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
+			}
+			.actions {
+				justify-content: center; 
+
 			}
 
 		}
