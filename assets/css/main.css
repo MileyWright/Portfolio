@@ -367,13 +367,20 @@ input, select, textarea {
 		text-align:left;
 		justify-content: center;
 	}
-	.content .a i {
-		font-size: 42px;
-		color: goldenrod;
+
+	.content .a a {
 		padding: 2%;
 	}
-
 	
+	.content .a a i {
+		font-size: 42px;
+		color: goldenrod;
+	}
+
+	.content .a img{
+		    height: 42px;
+	}
+
 	.content buttonspan{
 		font-size:1rem;
 		color: goldenrod;
